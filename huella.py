@@ -273,7 +273,7 @@ def main():
 
         pygame.display.flip()
 
-    # ----------- GAME OVER -----------
+    # ----------- FIN DEL JUEGO -----------
     screen.fill(WHITE)
     draw_text(screen, "FIN DEL JUEGO", 40, WIDTH//2, HEIGHT//2 - 60, center=True)
     draw_text(screen, f"kg CO2 Ahorrados: {score}", 32, WIDTH//2, HEIGHT//2, center=True)
